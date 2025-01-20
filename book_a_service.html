@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix-it Fast - Book a Service</title>
+    <link rel="stylesheet" href="css/book_a_service.css">
+    <link rel="stylesheet" href="css/booked_success_page.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sign_&_log_in.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <span>Fix-it Fast</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Services</a></li>
+                <li><a href="index.html">How it Works</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <li class="auth-links">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Sign Up</a>
+                </li>
+            </ul>
+            <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section id="book-service" class="book-service">
+        <h1>Book a Service</h1>
+        <div class="service-sections">
+            <!-- Auto Repair Section -->
+            <div class="service-section">
+                <h2>Auto Repair</h2>
+                <div class="worker-list">
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker3.png" alt="worker">
+                        </div>
+                        <h3>John Doe</h3>
+                        <p>Rating: ★★★★★ (4.9/5)</p>
+                        <p>Fee: $50/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker1.png" alt="worker">
+                        </div>
+                        <h3>Jane Smith</h3>
+                        <p>Rating: ★★★★☆ (4.7/5)</p>
+                        <p>Fee: $45/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker3.png" alt="worker">
+                        </div>
+                        <h3>John Doe</h3>
+                        <p>Rating: ★★★★★ (4.9/5)</p>
+                        <p>Fee: $50/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker2.png" alt="worker">
+                        </div>
+                        <h3>Jane Smith</h3>
+                        <p>Rating: ★★★★☆ (4.7/5)</p>
+                        <p>Fee: $45/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Home Repair Section -->
+            <div class="service-section">
+                <h2>Home Repair</h2>
+                <div class="worker-list">
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker3.png" alt="worker">
+                        </div>
+                        <h3>Mike Johnson</h3>
+                        <p>Rating: ★★★★★ (4.8/5)</p>
+                        <p>Fee: $60/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker2.png" alt="worker">
+                        </div>
+                        <h3>Emily Brown</h3>
+                        <p>Rating: ★★★★☆ (4.6/5)</p>
+                        <p>Fee: $55/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker1.png" alt="worker">
+                        </div>
+                        <h3>Mike Johnson</h3>
+                        <p>Rating: ★★★★★ (4.8/5)</p>
+                        <p>Fee: $60/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker3.png" alt="worker">
+                        </div>
+                        <h3>Emily Brown</h3>
+                        <p>Rating: ★★★★☆ (4.6/5)</p>
+                        <p>Fee: $55/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Plumbing Section -->
+            <div class="service-section">
+                <h2>Plumbing</h2>
+                <div class="worker-list">
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker2.png" alt="worker">
+                        </div>
+                        <h3>David Wilson</h3>
+                        <p>Rating: ★★★★★ (4.9/5)</p>
+                        <p>Fee: $70/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker1.png" alt="worker">
+                        </div>
+                        <h3>Sarah Davis</h3>
+                        <p>Rating: ★★★★☆ (4.7/5)</p>
+                        <p>Fee: $65/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker2.png" alt="worker">
+                        </div>
+                        <h3>David Wilson</h3>
+                        <p>Rating: ★★★★★ (4.9/5)</p>
+                        <p>Fee: $70/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker3.png" alt="worker">
+                        </div>
+                        <h3>Sarah Davis</h3>
+                        <p>Rating: ★★★★☆ (4.7/5)</p>
+                        <p>Fee: $65/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Electrical Section -->
+            <div class="service-section">
+                <h2>Electrical</h2>
+                <div class="worker-list">
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker2.png" alt="worker">
+                        </div>
+                        <h3>David Wilson</h3>
+                        <p>Rating: ★★★★★ (4.9/5)</p>
+                        <p>Fee: $100/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker1.png" alt="worker">
+                        </div>
+                        <h3>Sarah Davis</h3>
+                        <p>Rating: ★★★★☆ (4.7/5)</p>
+                        <p>Fee: $90/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker3.png" alt="worker">
+                        </div>
+                        <h3>David Wilson</h3>
+                        <p>Rating: ★★★★★ (4.9/5)</p>
+                        <p>Fee: $100/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                    <div class="worker-card">
+                        <div class="photo">
+                            <img src="woker_images/worker2.png" alt="worker">
+                        </div>
+                        <h3>Sarah Davis</h3>
+                        <p>Rating: ★★★★☆ (4.7/5)</p>
+                        <p>Fee: $90/hour</p>
+                        <a href="booked_success_page.html" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <span>Fix-it Fast</span>
+            </div>
+            <p>© 2025 Fix-it Fast. All rights reserved.</p>
+        </div>
+    </footer>
+    <button id="back-to-top" title="Back to Top">
+        <b class="fas fa-arrow-up">&uArr;</b>
+      </button>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

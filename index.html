@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fix-it Fast - Home Services</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="IMAGES/fix-it-fast.jpg" type="image">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/book_a_service.css">
+    <link rel="stylesheet" href="css/booked_success_page.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sign_&_log_in.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <span>Fix-it Fast</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="auth-links">
+                    <a href="login.html" class="login-btn">Login</a>
+                    <a href="signup.html" class="signup-btn">Sign Up</a>
+                </li>
+            </ul>
+            <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+        </nav>
+        <!-- Rest of the index.html content remains the same -->
+        <div class="hero">
+            <h1>Your One-Stop Solution for Home Services</h1>
+            <p>Connect with trusted professionals for all your repair and maintenance needs</p>
+            <a href="book_a_service.html" class="cta-button">Book a Service</a>
+        </div>
+    </header>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <a href="book_a_service.html" class="service-an">
+                    <h3>Auto Repair</h3>
+                </a>
+                <p>Professional car repair and maintenance services</p>
+            </div>
+            <div class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                    <polyline points="9 22 9 12 15 12 15 22" />
+                </svg>
+                <a href="book_a_service.html" class="service-an">
+                    <h3>Home Repair</h3>
+                </a>
+                <p>General household repairs and maintenance</p>
+            </div>
+            <div class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" />
+                </svg>
+                <a href="book_a_service.html" class="service-an">
+                    <h3>Plumbing</h3>
+                </a>
+                <p>Expert plumbing services and repairs</p>
+            </div>
+            <div class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                    <path d="M9 18h6" />
+                    <path d="M10 22h4" />
+                </svg>
+                <a href="book_a_service.html" class="service-an">
+                    <h3>Electrical</h3>
+                </a>
+                <p>Professional electrical installation and repairs</p>
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Book a Service</h3>
+                <p>Choose the service you need and select a convenient time</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Get Matched</h3>
+                <p>We'll connect you with a qualified professional</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Job Done</h3>
+                <p>Your service professional will arrive and complete the work</p>
+            </div>
+        </div>
+    </section>
+    <!-- What Our Customers Say section -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <div class="avatar">
+                    <img src="IMAGES/avatar-1.jpg" alt="avatar-1">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+                <p>"Excellent service! The professional was punctual, knowledgeable, and fixed our issue quickly."</p>
+                <p class="customer">- John Smith</p>
+            </div>
+            <div class="testimonial">
+                <div class="avatar">
+                    <img src="IMAGES/avatar-2.jpg" alt="avatar-2">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+                <p>"Very reliable and professional service. Will definitely use again for future repairs."</p>
+                <p class="customer">- Sarah Johnson</p>
+            </div>
+            <div class="testimonial">
+                <div class="avatar">
+                    <img src="IMAGES/avatar-3.jpg" alt="avatar-3">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+                <p>"Fast response time and great work quality. Highly recommended!"</p>
+                <p class="customer">- Mike Davis</p>
+            </div>
+        </div>
+    </section>
+        <!-- What Our Customers Say end! -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>
+                    &#x1F4DE +91 9140778954-Fix-it Fast
+                </p>
+                <p>
+                    &#128231
+                    support@fix-it-fast.com
+                </p>
+                <p> &#x1F3EC Bansal Campus, BIET Lucknow</p>
+                <div class="social-links">
+                    <h3>Social Link</h3>
+                    <a href=""><img src="IMAGES/social link1.png"alt="social-links"></a>
+                    <a href=""><img src="IMAGES/social link2.png"alt="social-links"></a>
+                    <a href=""><img src="IMAGES/social link3.png"alt="social-links"></a>
+                    <a href=""><img src="IMAGES/social link4.png"alt="social-links"></a>
+                </div>
+            </div>
+            <form id="contact-form" onsubmit="handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required="true">
+                <input type="email" placeholder="example@gmail.com" required="true">
+                <textarea placeholder=" Write Your Message" rows="4" required=""></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                </svg>
+                <span>Fix-it Fast</span>
+            </div>
+            <p>© 2025 Fix-it Fast. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Add this to your HTML file -->
+<button id="back-to-top" title="Back to Top">
+    <b class="fas fa-arrow-up">&uArr;</b>
+  </button>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

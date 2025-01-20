@@ -1,0 +1,78 @@
+/* Service Sections */
+#book-service {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.service-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-service h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.service-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+
+.worker-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.worker-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 290px;
+    text-align: center;
+}
+.worker-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.worker-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.worker-card p {
+    margin: 10px 0;
+}
+.worker-card img{
+    aspect-ratio:1;
+     height: 200px
+}
+.worker-card img:hover{
+    transform: scale(1.1);
+}
+.book-btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.book-btn:hover {
+    transform: scale(1.01);
+    background: #0056b3;
+}
